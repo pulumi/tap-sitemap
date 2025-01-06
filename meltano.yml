@@ -16,7 +16,6 @@ plugins:
     - about
     - stream-maps
 
-    # TODO: Declare settings and their types here:
     settings:
     - name: url_base
       label: URL Base

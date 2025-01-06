@@ -17,7 +17,7 @@ if t.TYPE_CHECKING:
     from typing import Dict, Optional
 
 class SitemapIndexStream(SitemapExtractorStream):
-    name = "sitemap_index"
+    name = "sitemaps"
     
     @property
     def path(self) -> str:
@@ -44,7 +44,7 @@ class SitemapIndexStream(SitemapExtractorStream):
         }
         
 class SitemapFromIndexStream(SitemapExtractorStream):
-    name = "sitemap_from_index"
+    name = "sitemap_urls"
     
     parent_stream_type = SitemapIndexStream
     primary_keys: t.ClassVar[list[str]] = ["sitemap_url", "page_url"]
