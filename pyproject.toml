@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pulumi-tap-sitemap"
-version = "0.0.1"
+version = "0.0.2"
 description = "Singer tap for Sitemap, built with the Meltano Singer SDK."
 readme = "README.md"
 authors = ["Pablo Seibelt <pabloseibelt@sicarul.com>"]
